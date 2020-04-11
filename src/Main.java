@@ -10,13 +10,6 @@ import java.io.IOException;
 public class Main {
     public static void main(String[] args) throws IOException {
         ParkingService parkingService = new ParkingService();
-//        int slots = Integer.parseInt(args[0]);
-//        String s1 = parkingService.createParkingSlot(slots);
-//        System.out.println(s1);
-//        System.out.println(parkingService.park(args[1]));
-//        System.out.println(parkingService.park(args[2]));
-//        parkingService.getStatus();
-
 
         File file = new File("/Users/roshangupta/Desktop/parkLot.txt");
 

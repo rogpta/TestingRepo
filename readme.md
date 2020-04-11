@@ -1,7 +1,13 @@
 How to run:-
     open project
     
-     export CLASSPATH="./bin"
-     javac -d ./bin `find . -name '*.java'`
-      java Main locationOftextFileInput
+    #export classPAth
+     export CLASSPATH="./out"
+     
+     
+    #To compile run
+      ./bin/setup.sh
+      
+    #To run
+       ./bin/parking_lot path_of_the_input_file
      

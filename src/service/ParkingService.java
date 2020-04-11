@@ -40,7 +40,7 @@ public class ParkingService {
         if (removedCar) {
             slots.add(freedSlot);
             System.out.println("Registration number " + regNo +
-                    " with Slot Number" + freedSlot + "is free with Charge "+calculateCharge(time));
+                    " with Slot Number " + freedSlot + " is free with Charge "+calculateCharge(time));
             return;
         }
         System.out.println("Registration number "+regNo+" not found");
